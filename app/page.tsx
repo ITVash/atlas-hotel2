@@ -707,7 +707,7 @@ export default function LandingPage() {
 													мир гармонии и здоровья.
 												</p>
 												<hr className='text-gray-200 mb-4' />
-												<div className='flex justify-between gap-4 md:flex-col'>
+												<div className='flex justify-between gap-4 flex-col md:flex-row'>
 													<Image
 														src='/bas.jpg'
 														alt='Бассейн'
@@ -731,7 +731,7 @@ export default function LandingPage() {
 												</div>
 												<hr className='text-gray-200 mb-4 mt-4' />
 
-												<div className='flex justify-between gap-4 md:flex-col'>
+												<div className='flex justify-between gap-4 flex-col md:flex-row'>
 													<Image
 														src='/fitness.jpg'
 														alt='Бассейн'
@@ -757,7 +757,7 @@ export default function LandingPage() {
 												</div>
 												<hr className='text-gray-200 mb-4 mt-4' />
 
-												<div className='flex justify-between gap-4 md:flex-col'>
+												<div className='flex justify-between gap-4 flex-col md:flex-row'>
 													<Image
 														src='/13.jpg'
 														alt='Бассейн'
@@ -835,7 +835,7 @@ export default function LandingPage() {
 																здоровья.
 															</p>
 															<hr className='text-gray-200 mb-4' />
-															<div className='flex justify-between gap-4'>
+															<div className='flex justify-between gap-4  flex-col md:flex-row'>
 																<Image
 																	src='/bas.jpg'
 																	alt='Бассейн'
@@ -862,7 +862,7 @@ export default function LandingPage() {
 															</div>
 															<hr className='text-gray-200 mb-4 mt-4' />
 
-															<div className='flex justify-between gap-4 md:flex-col'>
+															<div className='flex justify-between gap-4 flex-col md:flex-row'>
 																<Image
 																	src='/fitness.jpg'
 																	alt='Бассейн'
@@ -891,7 +891,7 @@ export default function LandingPage() {
 															</div>
 															<hr className='text-gray-200 mb-4 mt-4' />
 
-															<div className='flex justify-between gap-4 md:flex-col'>
+															<div className='flex justify-between gap-4 flex-col md:flex-row'>
 																<Image
 																	src='/13.jpg'
 																	alt='Бассейн'
@@ -958,7 +958,7 @@ export default function LandingPage() {
 													суете.
 												</p>
 												<hr className='text-gray-200 mb-4' />
-												<div className='flex justify-between gap-4 md:flex-col'>
+												<div className='flex justify-between gap-4 flex-col md:flex-row'>
 													<Image
 														src='/restaurant.jpg'
 														alt='Бассейн'
@@ -1061,7 +1061,7 @@ export default function LandingPage() {
 											<div>
 												<p className='mb-0'></p>
 												<hr className='text-gray-200 mb-4' />
-												<div className='flex justify-between gap-4 md:flex-col'>
+												<div className='flex justify-between gap-4 flex-col md:flex-row'>
 													<Image
 														src='/terrace.jpg'
 														alt='Бассейн'
@@ -1138,7 +1138,7 @@ export default function LandingPage() {
 												<p className='mb-0'></p>
 												<hr className='text-gray-200 mb-4' />
 
-												<div className='flex justify-between gap-4 md:flex-col'>
+												<div className='flex justify-between gap-4 flex-col md:flex-row'>
 													<Image
 														src='/pierrot.jpg'
 														alt='Бассейн'
@@ -1734,5 +1734,7 @@ export default function LandingPage() {
 		</main>
 	)
 }
+
+
 
 
