@@ -303,7 +303,9 @@ export default function LandingPage() {
     <main className="relative overflow-x-hidden">
       <NoiseOverlay />
 
-      <motion.div className="flex fixed hover:bg-gray-200 justify-center items-center h-[35px] w-[35px] rounded-[40px] z-100 bottom-2 right-5 border-gray-500 border text-gray-500 cursor-pointer" onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' })}}><ArrowUp /></motion.div>
+      <motion.div initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: 100, opacity: 0 }} className="flex fixed hover:bg-gray-200 justify-center items-center h-[35px] w-[35px] rounded-[40px] z-100 bottom-2 right-5 border-gray-500 border text-gray-500 cursor-pointer" onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' })}}><ArrowUp /></motion.div>
       
       {/* Header */}
       <header className={cn(
@@ -1146,7 +1148,7 @@ export default function LandingPage() {
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 100, opacity: 0 }}
-            className="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-40 w-[calc(100%-48px)]"
+            className="md:hidden fixed bottom-10 left-1/2 -translate-x-1/2 z-40 w-[calc(100%-48px)]"
           >
             <button 
               onClick={() => {
