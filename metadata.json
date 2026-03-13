@@ -1,0 +1,5 @@
+{
+  "name": "Atlas Hotel & SPA",
+  "description": "Премиальный гостинично-ресторанный комплекс в самом сердце Донецка.",
+  "requestFramePermissions": ["geolocation"]
+}
