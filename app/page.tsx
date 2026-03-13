@@ -303,7 +303,7 @@ export default function LandingPage() {
     <main className="relative overflow-x-hidden">
       <NoiseOverlay />
 
-      <motion.div className="flex fixed hover:bg-gray-200 justify-center items-center h-[35px] w-[35px] rounded-[40px] z-100 bottom-5 right-5 border-gray-500 border text-gray-500 cursor-pointer" onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' })}}><ArrowUp /></motion.div>
+      <motion.div className="flex fixed hover:bg-gray-200 justify-center items-center h-[35px] w-[35px] rounded-[40px] z-100 bottom-2 right-5 border-gray-500 border text-gray-500 cursor-pointer" onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' })}}><ArrowUp /></motion.div>
       
       {/* Header */}
       <header className={cn(
@@ -1056,7 +1056,7 @@ export default function LandingPage() {
         <div className="max-w-screen-2xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
             <div className="md:col-span-1">
-              <Image src="/hotel-logo.png" alt="Atlas Logo" width={160} height={48} className="h-12 w-auto mb-8 brightness-0 invert" />
+              <Image src="/logos.png" alt="Atlas Logo" width={160} height={48} className="h-12 w-auto mb-8 brightness-0 invert" />
               <p className="font-sans text-xs leading-loose opacity-60 max-w-xs">
                 Премиальный гостинично-ресторанный комплекс в самом сердце Донецка. Искусство гостеприимства с 2013 года.
               </p>
